@@ -1,5 +1,6 @@
 import random
 
+#fixed input validation to handle invalid choice - ROC-4
 def get_computer_choice():
     return random.choice(["rock", "paper", "scissors"])
 

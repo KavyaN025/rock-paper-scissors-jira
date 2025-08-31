@@ -1,0 +1,46 @@
+Test Case 1: Normal Play - User Wins
+-------------------------------------
+User Inputs:     rock
+Computer Inputs: scissors
+Expected Result: User wins this round
+
+User Inputs:     paper
+Computer Inputs: rock
+Expected Result: User wins this round
+
+Test Case 2: Normal Play - Computer Wins
+-----------------------------------------
+User Inputs:     scissors
+Computer Inputs: rock
+Expected Result: Computer wins this round
+
+User Inputs:     paper
+Computer Inputs: scissors
+Expected Result: Computer wins this round
+
+Test Case 3: Tie Scenario
+--------------------------
+User Inputs:     rock
+Computer Inputs: rock
+Expected Result: This round is a tie
+
+User Inputs:     scissors
+Computer Inputs: scissors
+Expected Result: This round is a tie
+
+Test Case 4: Invalid Input Handling
+------------------------------------
+User Inputs:     rck (or any invalid entry)
+Computer Inputs: any
+Expected Result: Prompt for valid input
+
+Test Case 5: Game Result Calculation
+-------------------------------------
+Simulate scores: User 3, Computer 2 after 5 rounds
+Expected Final Output: "Congratulations! You won the game!"
+
+Simulate scores: User 2, Computer 3 after 5 rounds
+Expected Final Output: "Sorry, the computer won the game."
+
+Simulate scores: User 2, Computer 2, 1 tie after 5 rounds
+Expected Final Output: "It's a tie game!"
