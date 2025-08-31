@@ -1,6 +1,7 @@
 import random
 
 #fixed input validation to handle invalid choice - ROC-4
+# Enhanced for RPSGV-2: Core game logic implementation
 def get_computer_choice():
     return random.choice(["rock", "paper", "scissors"])
 
